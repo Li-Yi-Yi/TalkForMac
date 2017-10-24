@@ -1,0 +1,1144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3974E12F1F69058E00948581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E12E1F69058E00948581 /* AppDelegate.swift */; };
+		3974E1311F69058E00948581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1301F69058E00948581 /* ViewController.swift */; };
+		3974E1331F69058E00948581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1321F69058E00948581 /* Assets.xcassets */; };
+		3974E1361F69058F00948581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974E1341F69058F00948581 /* Main.storyboard */; };
+		3974E1411F69058F00948581 /* WantTalkMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1401F69058F00948581 /* WantTalkMacTests.swift */; };
+		3974E14C1F69058F00948581 /* WantTalkMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E14B1F69058F00948581 /* WantTalkMacUITests.swift */; };
+		3974E1D91F69062C00948581 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E15B1F69062B00948581 /* CGRect+Extension.swift */; };
+		3974E1DA1F69062C00948581 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E15C1F69062B00948581 /* Constants.swift */; };
+		3974E1DB1F69062C00948581 /* DDXMLElement+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E15D1F69062B00948581 /* DDXMLElement+Extension.swift */; };
+		3974E1DC1F69062C00948581 /* ChatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E15F1F69062B00948581 /* ChatConfig.swift */; };
+		3974E1DD1F69062C00948581 /* ImageFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1601F69062B00948581 /* ImageFilesManager.swift */; };
+		3974E1DE1F69062C00948581 /* String+TSCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1611F69062B00948581 /* String+TSCrypto.swift */; };
+		3974E1E21F69062C00948581 /* IMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1651F69062B00948581 /* IMConfig.swift */; };
+		3974E1E31F69062C00948581 /* IMEmojiDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1661F69062B00948581 /* IMEmojiDictionary.swift */; };
+		3974E1E41F69062C00948581 /* IMXMPPManager+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1671F69062B00948581 /* IMXMPPManager+addition.swift */; };
+		3974E1E61F69062C00948581 /* NSImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1691F69062B00948581 /* NSImage+Extension.swift */; };
+		3974E1E71F69062C00948581 /* NSObject+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E16A1F69062B00948581 /* NSObject+addition.swift */; };
+		3974E1E81F69062C00948581 /* NSObject+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E16B1F69062B00948581 /* NSObject+TSExtension.swift */; };
+		3974E1E91F69062C00948581 /* NSViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E16C1F69062B00948581 /* NSViewController+Extension.swift */; };
+		3974E1EA1F69062C00948581 /* String+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E16D1F69062B00948581 /* String+addition.swift */; };
+		3974E1EB1F69062C00948581 /* SwiftTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E16E1F69062B00948581 /* SwiftTimer.swift */; };
+		3974E1EC1F69062C00948581 /* IMFriendsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1701F69062B00948581 /* IMFriendsManager.swift */; };
+		3974E1ED1F69062C00948581 /* IMGlobaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1711F69062B00948581 /* IMGlobaHelper.swift */; };
+		3974E1EE1F69062C00948581 /* IMMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1721F69062B00948581 /* IMMessageManager.swift */; };
+		3974E1EF1F69062C00948581 /* IMObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1731F69062B00948581 /* IMObjectManager.swift */; };
+		3974E1F01F69062C00948581 /* IMRealmUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1741F69062B00948581 /* IMRealmUtil.swift */; };
+		3974E1F11F69062C00948581 /* IMRxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1751F69062B00948581 /* IMRxManager.swift */; };
+		3974E1F21F69062C00948581 /* IMSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1761F69062B00948581 /* IMSessionManager.swift */; };
+		3974E1F31F69062C00948581 /* IMTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1771F69062B00948581 /* IMTokenManager.swift */; };
+		3974E1F41F69062C00948581 /* IMUpLoadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1781F69062B00948581 /* IMUpLoadFileManager.swift */; };
+		3974E1F51F69062C00948581 /* IMXCGLoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1791F69062B00948581 /* IMXCGLoggerManager.swift */; };
+		3974E1F61F69062C00948581 /* IMXMPPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E17A1F69062B00948581 /* IMXMPPManager.swift */; };
+		3974E1F71F69062C00948581 /* IMZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E17B1F69062B00948581 /* IMZipManager.swift */; };
+		3974E1F81F69062C00948581 /* IMAddGroupChatSelectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E17D1F69062B00948581 /* IMAddGroupChatSelectModel.swift */; };
+		3974E1F91F69062C00948581 /* IMChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E17E1F69062B00948581 /* IMChat.swift */; };
+		3974E1FA1F69062C00948581 /* IMChatImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E17F1F69062B00948581 /* IMChatImageModel.swift */; };
+		3974E1FB1F69062C00948581 /* IMChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1801F69062B00948581 /* IMChatModel.swift */; };
+		3974E1FC1F69062C00948581 /* IMFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1811F69062B00948581 /* IMFriend.swift */; };
+		3974E1FD1F69062C00948581 /* IMFriend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1821F69062B00948581 /* IMFriend2.swift */; };
+		3974E1FE1F69062C00948581 /* IMFriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1831F69062B00948581 /* IMFriendDetail.swift */; };
+		3974E1FF1F69062C00948581 /* IMFriendStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1841F69062B00948581 /* IMFriendStatus.swift */; };
+		3974E2001F69062C00948581 /* IMGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1851F69062B00948581 /* IMGroup.swift */; };
+		3974E2011F69062C00948581 /* IMGroup2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1861F69062B00948581 /* IMGroup2.swift */; };
+		3974E2021F69062C00948581 /* IMGroupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1871F69062B00948581 /* IMGroupList.swift */; };
+		3974E2031F69062C00948581 /* IMMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1881F69062B00948581 /* IMMessageList.swift */; };
+		3974E2041F69062C00948581 /* IMMessageList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1891F69062B00948581 /* IMMessageList2.swift */; };
+		3974E2051F69062C00948581 /* IMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E18A1F69062B00948581 /* IMModel.swift */; };
+		3974E2061F69062C00948581 /* IMOidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E18B1F69062B00948581 /* IMOidModel.swift */; };
+		3974E2071F69062C00948581 /* IMOrgnization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E18C1F69062B00948581 /* IMOrgnization.swift */; };
+		3974E2081F69062C00948581 /* IMRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E18D1F69062B00948581 /* IMRoom.swift */; };
+		3974E2091F69062C00948581 /* IMRoomStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E18E1F69062C00948581 /* IMRoomStatus.swift */; };
+		3974E20A1F69062C00948581 /* IMUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E18F1F69062C00948581 /* IMUserProfile.swift */; };
+		3974E20B1F69062C00948581 /* IMVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1901F69062C00948581 /* IMVersion.swift */; };
+		3974E20C1F69062C00948581 /* AESHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1941F69062C00948581 /* AESHelper.m */; };
+		3974E20D1F69062C00948581 /* BMChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1961F69062C00948581 /* BMChineseSort.m */; };
+		3974E20E1F69062C00948581 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1981F69062C00948581 /* KeychainConfiguration.swift */; };
+		3974E20F1F69062C00948581 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1991F69062C00948581 /* KeychainPasswordItem.swift */; };
+		3974E2101F69062C00948581 /* macUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 3974E19B1F69062C00948581 /* macUUID.m */; };
+		5EC81F3844785C43E3EE2CCE /* Pods_WantTalkMacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0255D7DCD120D77F92940 /* Pods_WantTalkMacUITests.framework */; };
+		73049117142B7D3A9DE3D510 /* Pods_WantTalkMacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B7EA804170091BF3E457A6 /* Pods_WantTalkMacTests.framework */; };
+		7E7E9FDE1F7BA2CF000D9328 /* IMFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974E1811F69062B00948581 /* IMFriend.swift */; };
+		AE1E21811AA71804A8BE3BB6 /* Pods_WantTalkMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9333B6F5409BA71F4105F /* Pods_WantTalkMac.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3974E13D1F69058F00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E1231F69058E00948581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3974E12A1F69058E00948581;
+			remoteInfo = WantTalkMac;
+		};
+		3974E1481F69058F00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E1231F69058E00948581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3974E12A1F69058E00948581;
+			remoteInfo = WantTalkMac;
+		};
+		3974E2541F69063C00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E24C1F69063C00948581 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A741C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		3974E2561F69063C00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E24C1F69063C00948581 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A7E1C1DFFB500A11FD3;
+			remoteInfo = ZipTests;
+		};
+		3974E2581F69063C00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E24C1F69063C00948581 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F50FF1C8DAEEC0028C434;
+			remoteInfo = "Zip OSX";
+		};
+		3974E25A1F69063C00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E24C1F69063C00948581 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F51081C8DAEEC0028C434;
+			remoteInfo = "Zip OSXTests";
+		};
+		3974E25C1F69063C00948581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3974E24C1F69063C00948581 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 342545B51CE525B200336074;
+			remoteInfo = "Zip tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0335503BFE6CE222C1995DA9 /* Pods-WantTalkMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalkMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalkMac/Pods-WantTalkMac.release.xcconfig"; sourceTree = "<group>"; };
+		36A49AC534BB9ED88A031F77 /* Pods-WantTalkMacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalkMacTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalkMacTests/Pods-WantTalkMacTests.release.xcconfig"; sourceTree = "<group>"; };
+		3974E12B1F69058E00948581 /* WantTalkMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WantTalkMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E12E1F69058E00948581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3974E1301F69058E00948581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3974E1321F69058E00948581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3974E1351F69058F00948581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3974E1371F69058F00948581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E13C1F69058F00948581 /* WantTalkMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WantTalkMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E1401F69058F00948581 /* WantTalkMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantTalkMacTests.swift; sourceTree = "<group>"; };
+		3974E1421F69058F00948581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E1471F69058F00948581 /* WantTalkMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WantTalkMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3974E14B1F69058F00948581 /* WantTalkMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantTalkMacUITests.swift; sourceTree = "<group>"; };
+		3974E14D1F69058F00948581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3974E15B1F69062B00948581 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		3974E15C1F69062B00948581 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3974E15D1F69062B00948581 /* DDXMLElement+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DDXMLElement+Extension.swift"; sourceTree = "<group>"; };
+		3974E15F1F69062B00948581 /* ChatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConfig.swift; sourceTree = "<group>"; };
+		3974E1601F69062B00948581 /* ImageFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilesManager.swift; sourceTree = "<group>"; };
+		3974E1611F69062B00948581 /* String+TSCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TSCrypto.swift"; sourceTree = "<group>"; };
+		3974E1651F69062B00948581 /* IMConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMConfig.swift; sourceTree = "<group>"; };
+		3974E1661F69062B00948581 /* IMEmojiDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMEmojiDictionary.swift; sourceTree = "<group>"; };
+		3974E1671F69062B00948581 /* IMXMPPManager+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IMXMPPManager+addition.swift"; sourceTree = "<group>"; };
+		3974E1691F69062B00948581 /* NSImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+Extension.swift"; sourceTree = "<group>"; };
+		3974E16A1F69062B00948581 /* NSObject+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+addition.swift"; sourceTree = "<group>"; };
+		3974E16B1F69062B00948581 /* NSObject+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+TSExtension.swift"; sourceTree = "<group>"; };
+		3974E16C1F69062B00948581 /* NSViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSViewController+Extension.swift"; sourceTree = "<group>"; };
+		3974E16D1F69062B00948581 /* String+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+addition.swift"; sourceTree = "<group>"; };
+		3974E16E1F69062B00948581 /* SwiftTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTimer.swift; sourceTree = "<group>"; };
+		3974E1701F69062B00948581 /* IMFriendsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriendsManager.swift; sourceTree = "<group>"; };
+		3974E1711F69062B00948581 /* IMGlobaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGlobaHelper.swift; sourceTree = "<group>"; };
+		3974E1721F69062B00948581 /* IMMessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMessageManager.swift; sourceTree = "<group>"; };
+		3974E1731F69062B00948581 /* IMObjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMObjectManager.swift; sourceTree = "<group>"; };
+		3974E1741F69062B00948581 /* IMRealmUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRealmUtil.swift; sourceTree = "<group>"; };
+		3974E1751F69062B00948581 /* IMRxManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRxManager.swift; sourceTree = "<group>"; };
+		3974E1761F69062B00948581 /* IMSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMSessionManager.swift; sourceTree = "<group>"; };
+		3974E1771F69062B00948581 /* IMTokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMTokenManager.swift; sourceTree = "<group>"; };
+		3974E1781F69062B00948581 /* IMUpLoadFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMUpLoadFileManager.swift; sourceTree = "<group>"; };
+		3974E1791F69062B00948581 /* IMXCGLoggerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMXCGLoggerManager.swift; sourceTree = "<group>"; };
+		3974E17A1F69062B00948581 /* IMXMPPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMXMPPManager.swift; sourceTree = "<group>"; };
+		3974E17B1F69062B00948581 /* IMZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMZipManager.swift; sourceTree = "<group>"; };
+		3974E17D1F69062B00948581 /* IMAddGroupChatSelectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMAddGroupChatSelectModel.swift; sourceTree = "<group>"; };
+		3974E17E1F69062B00948581 /* IMChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChat.swift; sourceTree = "<group>"; };
+		3974E17F1F69062B00948581 /* IMChatImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChatImageModel.swift; sourceTree = "<group>"; };
+		3974E1801F69062B00948581 /* IMChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChatModel.swift; sourceTree = "<group>"; };
+		3974E1811F69062B00948581 /* IMFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriend.swift; sourceTree = "<group>"; };
+		3974E1821F69062B00948581 /* IMFriend2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriend2.swift; sourceTree = "<group>"; };
+		3974E1831F69062B00948581 /* IMFriendDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriendDetail.swift; sourceTree = "<group>"; };
+		3974E1841F69062B00948581 /* IMFriendStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriendStatus.swift; sourceTree = "<group>"; };
+		3974E1851F69062B00948581 /* IMGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGroup.swift; sourceTree = "<group>"; };
+		3974E1861F69062B00948581 /* IMGroup2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGroup2.swift; sourceTree = "<group>"; };
+		3974E1871F69062B00948581 /* IMGroupList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGroupList.swift; sourceTree = "<group>"; };
+		3974E1881F69062B00948581 /* IMMessageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMessageList.swift; sourceTree = "<group>"; };
+		3974E1891F69062B00948581 /* IMMessageList2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMessageList2.swift; sourceTree = "<group>"; };
+		3974E18A1F69062B00948581 /* IMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMModel.swift; sourceTree = "<group>"; };
+		3974E18B1F69062B00948581 /* IMOidModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMOidModel.swift; sourceTree = "<group>"; };
+		3974E18C1F69062B00948581 /* IMOrgnization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMOrgnization.swift; sourceTree = "<group>"; };
+		3974E18D1F69062B00948581 /* IMRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRoom.swift; sourceTree = "<group>"; };
+		3974E18E1F69062C00948581 /* IMRoomStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRoomStatus.swift; sourceTree = "<group>"; };
+		3974E18F1F69062C00948581 /* IMUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMUserProfile.swift; sourceTree = "<group>"; };
+		3974E1901F69062C00948581 /* IMVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMVersion.swift; sourceTree = "<group>"; };
+		3974E1931F69062C00948581 /* AESHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESHelper.h; sourceTree = "<group>"; };
+		3974E1941F69062C00948581 /* AESHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESHelper.m; sourceTree = "<group>"; };
+		3974E1951F69062C00948581 /* BMChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMChineseSort.h; sourceTree = "<group>"; };
+		3974E1961F69062C00948581 /* BMChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMChineseSort.m; sourceTree = "<group>"; };
+		3974E1981F69062C00948581 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
+		3974E1991F69062C00948581 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		3974E19A1F69062C00948581 /* macUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macUUID.h; sourceTree = "<group>"; };
+		3974E19B1F69062C00948581 /* macUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = macUUID.m; sourceTree = "<group>"; };
+		3974E24C1F69063C00948581 /* Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zip.xcodeproj; path = Zip/Zip.xcodeproj; sourceTree = "<group>"; };
+		3974E25F1F6906EB00948581 /* WantTalkMac-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WantTalkMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		45FB9AA3439701DB05A35870 /* Pods-WantTalkMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalkMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalkMac/Pods-WantTalkMac.debug.xcconfig"; sourceTree = "<group>"; };
+		4A6973FBC4A88A8EEBF9A89B /* Pods-WantTalkMacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalkMacTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalkMacTests/Pods-WantTalkMacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A8FA5C6096DDF90274C4725 /* Pods-WantTalkMacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalkMacUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalkMacUITests/Pods-WantTalkMacUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81F0255D7DCD120D77F92940 /* Pods_WantTalkMacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WantTalkMacUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B7EA804170091BF3E457A6 /* Pods_WantTalkMacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WantTalkMacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C9333B6F5409BA71F4105F /* Pods_WantTalkMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WantTalkMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22F0D82740E0BBD5F97F43A /* Pods-WantTalkMacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalkMacUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalkMacUITests/Pods-WantTalkMacUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3974E1281F69058E00948581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1E21811AA71804A8BE3BB6 /* Pods_WantTalkMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1391F69058F00948581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73049117142B7D3A9DE3D510 /* Pods_WantTalkMacTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1441F69058F00948581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC81F3844785C43E3EE2CCE /* Pods_WantTalkMacUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3974E1221F69058E00948581 = {
+			isa = PBXGroup;
+			children = (
+				3974E25F1F6906EB00948581 /* WantTalkMac-Bridging-Header.h */,
+				3974E12D1F69058E00948581 /* WantTalkMac */,
+				3974E13F1F69058F00948581 /* WantTalkMacTests */,
+				3974E14A1F69058F00948581 /* WantTalkMacUITests */,
+				3974E12C1F69058E00948581 /* Products */,
+				D59D8EFD3F1BE8384587B5B6 /* Pods */,
+				CBBAC3EF888208BC67848ACF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3974E12C1F69058E00948581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3974E12B1F69058E00948581 /* WantTalkMac.app */,
+				3974E13C1F69058F00948581 /* WantTalkMacTests.xctest */,
+				3974E1471F69058F00948581 /* WantTalkMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3974E12D1F69058E00948581 /* WantTalkMac */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1591F69062B00948581 /* IMCore */,
+				3974E12E1F69058E00948581 /* AppDelegate.swift */,
+				3974E1301F69058E00948581 /* ViewController.swift */,
+				3974E1321F69058E00948581 /* Assets.xcassets */,
+				3974E1341F69058F00948581 /* Main.storyboard */,
+				3974E1371F69058F00948581 /* Info.plist */,
+			);
+			path = WantTalkMac;
+			sourceTree = "<group>";
+		};
+		3974E13F1F69058F00948581 /* WantTalkMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1401F69058F00948581 /* WantTalkMacTests.swift */,
+				3974E1421F69058F00948581 /* Info.plist */,
+			);
+			path = WantTalkMacTests;
+			sourceTree = "<group>";
+		};
+		3974E14A1F69058F00948581 /* WantTalkMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3974E14B1F69058F00948581 /* WantTalkMacUITests.swift */,
+				3974E14D1F69058F00948581 /* Info.plist */,
+			);
+			path = WantTalkMacUITests;
+			sourceTree = "<group>";
+		};
+		3974E1591F69062B00948581 /* IMCore */ = {
+			isa = PBXGroup;
+			children = (
+				3974E15A1F69062B00948581 /* Common */,
+				3974E16F1F69062B00948581 /* DataSource */,
+				3974E17C1F69062B00948581 /* Model */,
+				3974E1911F69062C00948581 /* Vendor */,
+			);
+			path = IMCore;
+			sourceTree = "<group>";
+		};
+		3974E15A1F69062B00948581 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3974E15B1F69062B00948581 /* CGRect+Extension.swift */,
+				3974E15C1F69062B00948581 /* Constants.swift */,
+				3974E15D1F69062B00948581 /* DDXMLElement+Extension.swift */,
+				3974E15E1F69062B00948581 /* ImagesInfo */,
+				3974E1651F69062B00948581 /* IMConfig.swift */,
+				3974E1661F69062B00948581 /* IMEmojiDictionary.swift */,
+				3974E1671F69062B00948581 /* IMXMPPManager+addition.swift */,
+				3974E1691F69062B00948581 /* NSImage+Extension.swift */,
+				3974E16A1F69062B00948581 /* NSObject+addition.swift */,
+				3974E16B1F69062B00948581 /* NSObject+TSExtension.swift */,
+				3974E16C1F69062B00948581 /* NSViewController+Extension.swift */,
+				3974E16D1F69062B00948581 /* String+addition.swift */,
+				3974E16E1F69062B00948581 /* SwiftTimer.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3974E15E1F69062B00948581 /* ImagesInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3974E15F1F69062B00948581 /* ChatConfig.swift */,
+				3974E1601F69062B00948581 /* ImageFilesManager.swift */,
+				3974E1611F69062B00948581 /* String+TSCrypto.swift */,
+			);
+			path = ImagesInfo;
+			sourceTree = "<group>";
+		};
+		3974E16F1F69062B00948581 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1701F69062B00948581 /* IMFriendsManager.swift */,
+				3974E1711F69062B00948581 /* IMGlobaHelper.swift */,
+				3974E1721F69062B00948581 /* IMMessageManager.swift */,
+				3974E1731F69062B00948581 /* IMObjectManager.swift */,
+				3974E1741F69062B00948581 /* IMRealmUtil.swift */,
+				3974E1751F69062B00948581 /* IMRxManager.swift */,
+				3974E1761F69062B00948581 /* IMSessionManager.swift */,
+				3974E1771F69062B00948581 /* IMTokenManager.swift */,
+				3974E1781F69062B00948581 /* IMUpLoadFileManager.swift */,
+				3974E1791F69062B00948581 /* IMXCGLoggerManager.swift */,
+				3974E17A1F69062B00948581 /* IMXMPPManager.swift */,
+				3974E17B1F69062B00948581 /* IMZipManager.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		3974E17C1F69062B00948581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3974E17D1F69062B00948581 /* IMAddGroupChatSelectModel.swift */,
+				3974E17E1F69062B00948581 /* IMChat.swift */,
+				3974E17F1F69062B00948581 /* IMChatImageModel.swift */,
+				3974E1801F69062B00948581 /* IMChatModel.swift */,
+				3974E1811F69062B00948581 /* IMFriend.swift */,
+				3974E1821F69062B00948581 /* IMFriend2.swift */,
+				3974E1831F69062B00948581 /* IMFriendDetail.swift */,
+				3974E1841F69062B00948581 /* IMFriendStatus.swift */,
+				3974E1851F69062B00948581 /* IMGroup.swift */,
+				3974E1861F69062B00948581 /* IMGroup2.swift */,
+				3974E1871F69062B00948581 /* IMGroupList.swift */,
+				3974E1881F69062B00948581 /* IMMessageList.swift */,
+				3974E1891F69062B00948581 /* IMMessageList2.swift */,
+				3974E18A1F69062B00948581 /* IMModel.swift */,
+				3974E18B1F69062B00948581 /* IMOidModel.swift */,
+				3974E18C1F69062B00948581 /* IMOrgnization.swift */,
+				3974E18D1F69062B00948581 /* IMRoom.swift */,
+				3974E18E1F69062C00948581 /* IMRoomStatus.swift */,
+				3974E18F1F69062C00948581 /* IMUserProfile.swift */,
+				3974E1901F69062C00948581 /* IMVersion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3974E1911F69062C00948581 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1921F69062C00948581 /* BMChineseSort */,
+				3974E1971F69062C00948581 /* IMKeyChain */,
+				3974E19A1F69062C00948581 /* macUUID.h */,
+				3974E19B1F69062C00948581 /* macUUID.m */,
+				3974E24C1F69063C00948581 /* Zip.xcodeproj */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3974E1921F69062C00948581 /* BMChineseSort */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1931F69062C00948581 /* AESHelper.h */,
+				3974E1941F69062C00948581 /* AESHelper.m */,
+				3974E1951F69062C00948581 /* BMChineseSort.h */,
+				3974E1961F69062C00948581 /* BMChineseSort.m */,
+			);
+			path = BMChineseSort;
+			sourceTree = "<group>";
+		};
+		3974E1971F69062C00948581 /* IMKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				3974E1981F69062C00948581 /* KeychainConfiguration.swift */,
+				3974E1991F69062C00948581 /* KeychainPasswordItem.swift */,
+			);
+			path = IMKeyChain;
+			sourceTree = "<group>";
+		};
+		3974E24D1F69063C00948581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3974E2551F69063C00948581 /* Zip.framework */,
+				3974E2571F69063C00948581 /* ZipTests.xctest */,
+				3974E2591F69063C00948581 /* Zip.framework */,
+				3974E25B1F69063C00948581 /* Zip OSXTests.xctest */,
+				3974E25D1F69063C00948581 /* Zip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBBAC3EF888208BC67848ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C9333B6F5409BA71F4105F /* Pods_WantTalkMac.framework */,
+				A5B7EA804170091BF3E457A6 /* Pods_WantTalkMacTests.framework */,
+				81F0255D7DCD120D77F92940 /* Pods_WantTalkMacUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D59D8EFD3F1BE8384587B5B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45FB9AA3439701DB05A35870 /* Pods-WantTalkMac.debug.xcconfig */,
+				0335503BFE6CE222C1995DA9 /* Pods-WantTalkMac.release.xcconfig */,
+				4A6973FBC4A88A8EEBF9A89B /* Pods-WantTalkMacTests.debug.xcconfig */,
+				36A49AC534BB9ED88A031F77 /* Pods-WantTalkMacTests.release.xcconfig */,
+				E22F0D82740E0BBD5F97F43A /* Pods-WantTalkMacUITests.debug.xcconfig */,
+				4A8FA5C6096DDF90274C4725 /* Pods-WantTalkMacUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3974E12A1F69058E00948581 /* WantTalkMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1501F69058F00948581 /* Build configuration list for PBXNativeTarget "WantTalkMac" */;
+			buildPhases = (
+				08F9E9432C9A290355F3BE7D /* [CP] Check Pods Manifest.lock */,
+				3974E1271F69058E00948581 /* Sources */,
+				3974E1281F69058E00948581 /* Frameworks */,
+				3974E1291F69058E00948581 /* Resources */,
+				D48746A2DC826308442765B2 /* [CP] Embed Pods Frameworks */,
+				29E1DE4A95D5FD4DA531DC10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WantTalkMac;
+			productName = WantTalkMac;
+			productReference = 3974E12B1F69058E00948581 /* WantTalkMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3974E13B1F69058F00948581 /* WantTalkMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1531F69058F00948581 /* Build configuration list for PBXNativeTarget "WantTalkMacTests" */;
+			buildPhases = (
+				EBBC76047BF25831BD21E731 /* [CP] Check Pods Manifest.lock */,
+				3974E1381F69058F00948581 /* Sources */,
+				3974E1391F69058F00948581 /* Frameworks */,
+				3974E13A1F69058F00948581 /* Resources */,
+				53332A4A54BFDB4EDCD1ADDC /* [CP] Embed Pods Frameworks */,
+				0133EA1E66782FF675F2F8A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3974E13E1F69058F00948581 /* PBXTargetDependency */,
+			);
+			name = WantTalkMacTests;
+			productName = WantTalkMacTests;
+			productReference = 3974E13C1F69058F00948581 /* WantTalkMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3974E1461F69058F00948581 /* WantTalkMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3974E1561F69058F00948581 /* Build configuration list for PBXNativeTarget "WantTalkMacUITests" */;
+			buildPhases = (
+				4EB42A296EFD21026524408A /* [CP] Check Pods Manifest.lock */,
+				3974E1431F69058F00948581 /* Sources */,
+				3974E1441F69058F00948581 /* Frameworks */,
+				3974E1451F69058F00948581 /* Resources */,
+				C6B942A2275F8FB43E500A44 /* [CP] Embed Pods Frameworks */,
+				D817D5E380A89EF15A0AE48C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3974E1491F69058F00948581 /* PBXTargetDependency */,
+			);
+			name = WantTalkMacUITests;
+			productName = WantTalkMacUITests;
+			productReference = 3974E1471F69058F00948581 /* WantTalkMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3974E1231F69058E00948581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "吳淑菁";
+				TargetAttributes = {
+					3974E12A1F69058E00948581 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3974E13B1F69058F00948581 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3974E12A1F69058E00948581;
+					};
+					3974E1461F69058F00948581 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3974E12A1F69058E00948581;
+					};
+				};
+			};
+			buildConfigurationList = 3974E1261F69058E00948581 /* Build configuration list for PBXProject "WantTalkMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3974E1221F69058E00948581;
+			productRefGroup = 3974E12C1F69058E00948581 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3974E24D1F69063C00948581 /* Products */;
+					ProjectRef = 3974E24C1F69063C00948581 /* Zip.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3974E12A1F69058E00948581 /* WantTalkMac */,
+				3974E13B1F69058F00948581 /* WantTalkMacTests */,
+				3974E1461F69058F00948581 /* WantTalkMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3974E2551F69063C00948581 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3974E2541F69063C00948581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3974E2571F69063C00948581 /* ZipTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZipTests.xctest;
+			remoteRef = 3974E2561F69063C00948581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3974E2591F69063C00948581 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3974E2581F69063C00948581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3974E25B1F69063C00948581 /* Zip OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Zip OSXTests.xctest";
+			remoteRef = 3974E25A1F69063C00948581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3974E25D1F69063C00948581 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = 3974E25C1F69063C00948581 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3974E1291F69058E00948581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1331F69058E00948581 /* Assets.xcassets in Resources */,
+				3974E1361F69058F00948581 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E13A1F69058F00948581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1451F69058F00948581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0133EA1E66782FF675F2F8A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMacTests/Pods-WantTalkMacTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08F9E9432C9A290355F3BE7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WantTalkMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29E1DE4A95D5FD4DA531DC10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMac/Pods-WantTalkMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB42A296EFD21026524408A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WantTalkMacUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53332A4A54BFDB4EDCD1ADDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMacTests/Pods-WantTalkMacTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B942A2275F8FB43E500A44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMacUITests/Pods-WantTalkMacUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48746A2DC826308442765B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMac/Pods-WantTalkMac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Cent/Cent.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoltsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMac/Pods-WantTalkMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D817D5E380A89EF15A0AE48C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalkMacUITests/Pods-WantTalkMacUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBC76047BF25831BD21E731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WantTalkMacTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3974E1271F69058E00948581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1FE1F69062C00948581 /* IMFriendDetail.swift in Sources */,
+				3974E1E81F69062C00948581 /* NSObject+TSExtension.swift in Sources */,
+				3974E1F81F69062C00948581 /* IMAddGroupChatSelectModel.swift in Sources */,
+				3974E20C1F69062C00948581 /* AESHelper.m in Sources */,
+				3974E1EC1F69062C00948581 /* IMFriendsManager.swift in Sources */,
+				3974E1E31F69062C00948581 /* IMEmojiDictionary.swift in Sources */,
+				3974E2041F69062C00948581 /* IMMessageList2.swift in Sources */,
+				3974E1F61F69062C00948581 /* IMXMPPManager.swift in Sources */,
+				3974E1F31F69062C00948581 /* IMTokenManager.swift in Sources */,
+				3974E1D91F69062C00948581 /* CGRect+Extension.swift in Sources */,
+				3974E1F21F69062C00948581 /* IMSessionManager.swift in Sources */,
+				3974E2051F69062C00948581 /* IMModel.swift in Sources */,
+				3974E1311F69058E00948581 /* ViewController.swift in Sources */,
+				3974E1EA1F69062C00948581 /* String+addition.swift in Sources */,
+				3974E1FB1F69062C00948581 /* IMChatModel.swift in Sources */,
+				3974E2031F69062C00948581 /* IMMessageList.swift in Sources */,
+				3974E1F41F69062C00948581 /* IMUpLoadFileManager.swift in Sources */,
+				3974E1DE1F69062C00948581 /* String+TSCrypto.swift in Sources */,
+				3974E1F51F69062C00948581 /* IMXCGLoggerManager.swift in Sources */,
+				3974E1FA1F69062C00948581 /* IMChatImageModel.swift in Sources */,
+				3974E1FF1F69062C00948581 /* IMFriendStatus.swift in Sources */,
+				3974E2021F69062C00948581 /* IMGroupList.swift in Sources */,
+				3974E2101F69062C00948581 /* macUUID.m in Sources */,
+				3974E2081F69062C00948581 /* IMRoom.swift in Sources */,
+				3974E20E1F69062C00948581 /* KeychainConfiguration.swift in Sources */,
+				3974E1ED1F69062C00948581 /* IMGlobaHelper.swift in Sources */,
+				3974E12F1F69058E00948581 /* AppDelegate.swift in Sources */,
+				3974E1F11F69062C00948581 /* IMRxManager.swift in Sources */,
+				3974E1DC1F69062C00948581 /* ChatConfig.swift in Sources */,
+				3974E20D1F69062C00948581 /* BMChineseSort.m in Sources */,
+				3974E1F91F69062C00948581 /* IMChat.swift in Sources */,
+				3974E2061F69062C00948581 /* IMOidModel.swift in Sources */,
+				3974E20A1F69062C00948581 /* IMUserProfile.swift in Sources */,
+				3974E1DB1F69062C00948581 /* DDXMLElement+Extension.swift in Sources */,
+				3974E1E41F69062C00948581 /* IMXMPPManager+addition.swift in Sources */,
+				3974E2071F69062C00948581 /* IMOrgnization.swift in Sources */,
+				3974E1E21F69062C00948581 /* IMConfig.swift in Sources */,
+				3974E1EF1F69062C00948581 /* IMObjectManager.swift in Sources */,
+				3974E1FD1F69062C00948581 /* IMFriend2.swift in Sources */,
+				3974E1DA1F69062C00948581 /* Constants.swift in Sources */,
+				3974E1F01F69062C00948581 /* IMRealmUtil.swift in Sources */,
+				3974E1E61F69062C00948581 /* NSImage+Extension.swift in Sources */,
+				3974E1E91F69062C00948581 /* NSViewController+Extension.swift in Sources */,
+				3974E2001F69062C00948581 /* IMGroup.swift in Sources */,
+				3974E1F71F69062C00948581 /* IMZipManager.swift in Sources */,
+				3974E2091F69062C00948581 /* IMRoomStatus.swift in Sources */,
+				3974E20B1F69062C00948581 /* IMVersion.swift in Sources */,
+				3974E1FC1F69062C00948581 /* IMFriend.swift in Sources */,
+				3974E2011F69062C00948581 /* IMGroup2.swift in Sources */,
+				3974E1E71F69062C00948581 /* NSObject+addition.swift in Sources */,
+				3974E20F1F69062C00948581 /* KeychainPasswordItem.swift in Sources */,
+				3974E1EB1F69062C00948581 /* SwiftTimer.swift in Sources */,
+				3974E1DD1F69062C00948581 /* ImageFilesManager.swift in Sources */,
+				3974E1EE1F69062C00948581 /* IMMessageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1381F69058F00948581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E1411F69058F00948581 /* WantTalkMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3974E1431F69058F00948581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3974E14C1F69058F00948581 /* WantTalkMacUITests.swift in Sources */,
+				7E7E9FDE1F7BA2CF000D9328 /* IMFriend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3974E13E1F69058F00948581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3974E12A1F69058E00948581 /* WantTalkMac */;
+			targetProxy = 3974E13D1F69058F00948581 /* PBXContainerItemProxy */;
+		};
+		3974E1491F69058F00948581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3974E12A1F69058E00948581 /* WantTalkMac */;
+			targetProxy = 3974E1481F69058F00948581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3974E1341F69058F00948581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3974E1351F69058F00948581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3974E14E1F69058F00948581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3974E14F1F69058F00948581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3974E1511F69058F00948581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FB9AA3439701DB05A35870 /* Pods-WantTalkMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WantTalkMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestCode.WantTalkMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WantTalkMac-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3974E1521F69058F00948581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0335503BFE6CE222C1995DA9 /* Pods-WantTalkMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WantTalkMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestCode.WantTalkMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WantTalkMac-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3974E1541F69058F00948581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6973FBC4A88A8EEBF9A89B /* Pods-WantTalkMacTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WantTalkMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestCode.WantTalkMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WantTalkMac.app/Contents/MacOS/WantTalkMac";
+			};
+			name = Debug;
+		};
+		3974E1551F69058F00948581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A49AC534BB9ED88A031F77 /* Pods-WantTalkMacTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WantTalkMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestCode.WantTalkMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WantTalkMac.app/Contents/MacOS/WantTalkMac";
+			};
+			name = Release;
+		};
+		3974E1571F69058F00948581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22F0D82740E0BBD5F97F43A /* Pods-WantTalkMacUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WantTalkMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestCode.WantTalkMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WantTalkMac;
+			};
+			name = Debug;
+		};
+		3974E1581F69058F00948581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8FA5C6096DDF90274C4725 /* Pods-WantTalkMacUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WantTalkMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestCode.WantTalkMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WantTalkMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3974E1261F69058E00948581 /* Build configuration list for PBXProject "WantTalkMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E14E1F69058F00948581 /* Debug */,
+				3974E14F1F69058F00948581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1501F69058F00948581 /* Build configuration list for PBXNativeTarget "WantTalkMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1511F69058F00948581 /* Debug */,
+				3974E1521F69058F00948581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1531F69058F00948581 /* Build configuration list for PBXNativeTarget "WantTalkMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1541F69058F00948581 /* Debug */,
+				3974E1551F69058F00948581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3974E1561F69058F00948581 /* Build configuration list for PBXNativeTarget "WantTalkMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3974E1571F69058F00948581 /* Debug */,
+				3974E1581F69058F00948581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3974E1231F69058E00948581 /* Project object */;
+}

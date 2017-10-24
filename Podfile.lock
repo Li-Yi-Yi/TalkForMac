@@ -1,0 +1,99 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Bolts-Swift (1.3.0)
+  - Cent (6.0.4):
+    - Dollar (~> 6.2.1)
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaLumberjack (3.2.1):
+    - CocoaLumberjack/Default (= 3.2.1)
+    - CocoaLumberjack/Extensions (= 3.2.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Extensions (3.2.1):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.8.6):
+    - Fabric (~> 1.6.3)
+  - Dollar (6.2.1)
+  - Fabric (1.6.13)
+  - Kingfisher (3.13.0)
+  - KissXML (5.2.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ReachabilitySwift (3)
+  - Realm (2.8.3):
+    - Realm/Headers (= 2.8.3)
+  - Realm/Headers (2.8.3)
+  - RealmSwift (2.8.3):
+    - Realm (= 2.8.3)
+  - RxBlocking (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SnapKit (3.2.0)
+  - SwiftyJSON (3.1.4)
+  - XCGLogger (5.0.1):
+    - XCGLogger/Core (= 5.0.1)
+  - XCGLogger/Core (5.0.1):
+    - ObjcExceptionBridging
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+  - Zip (0.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Bolts-Swift
+  - Cent
+  - Crashlytics
+  - Dollar
+  - Fabric
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`)
+  - ReachabilitySwift (~> 3)
+  - RealmSwift (~> 2.8.3)
+  - RxBlocking
+  - RxCocoa
+  - RxSwift
+  - SnapKit (~> 3.2.0)
+  - SwiftyJSON
+  - XCGLogger
+  - XMPPFramework
+  - Zip
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: 134f7498f8012d85dd6b733598c5671d7397a7be
+    :git: https://github.com/onevcat/Kingfisher.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Bolts-Swift: fa98d1b59fc1acea9b21a21306dcdca1c85e3737
+  Cent: 77cd9f7795da237a72bccd4c5011ff343a2767d9
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  Crashlytics: 95d05f4e4c19a771250c4bd9ce344d996de32bbf
+  Dollar: 197e92d0fc1ded259363f33f883704b7b550472b
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
+  Kingfisher: 1d9980706d4aea86a6e7ce4f46cf3005706a86b2
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 3601ef091c8c499a31101d8563b991e75546cdce
+  RealmSwift: 8183818515471b01a99abdd2970f8e4fd52b6f4a
+  RxBlocking: 4f4bd5732e8b952e54ae8a57739bcfb645de12bc
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XCGLogger: 0b43697155d41e4a1b15fc776f319c2141646b09
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
+  Zip: e34513299ac38c0686d5b24504da7ce343799ab9
+
+PODFILE CHECKSUM: 28ed9cc65f884d3939df7f5dc36883819504f542
+
+COCOAPODS: 1.3.1
